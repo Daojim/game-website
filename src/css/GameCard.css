@@ -13,13 +13,13 @@
   transform: translateY(-5px);
 }
 
-.game-poster {
+.game-coverart {
   position: relative;
   aspect-ratio: 2/3;
   width: 100%;
 }
 
-.game-poster img {
+.game-coverart img {
   width: 100%;
   height: 100%;
   object-fit: cover;
