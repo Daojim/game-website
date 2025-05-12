@@ -11,6 +11,13 @@ function GameCard({ game }) {
           </button>
         </div>
       </div>
+
+      <div className="game-info">
+        <h3>{game.title}</h3>
+        <p>{game.release_date} </p>
+      </div>
     </div>
   );
 }
+
+export default GameCard;
