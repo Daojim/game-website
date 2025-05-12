@@ -1,4 +1,4 @@
-function Favourite() {
+function Favourites() {
   return (
     <div className="favourites-empty">
       <h2>No Favourite Games Yet</h2>
@@ -7,4 +7,4 @@ function Favourite() {
   );
 }
 
-export default Favourite;
+export default Favourites;
