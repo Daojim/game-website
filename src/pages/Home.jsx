@@ -32,9 +32,12 @@ function Home() {
       </form>
 
       <div className="games-grid">
-        {games.map((game) => (
-          <GameCard game={game} key={game.id} />
-        ))}
+        {games.map(
+          (game) =>
+            game.title.toLowerCase().startsWith(searchQuery) && (
+              <GameCard game={game} key={game.id} />
+            )
+        )}
       </div>
     </div>
   );
