@@ -1,5 +1,3 @@
-import "../css/Favourites.css";
-
 function Favourites() {
   return (
     <div className="favourites-empty">
