@@ -4,11 +4,11 @@ import { useState } from "react";
 function Home() {
   const [searchQuery, setSearchQuery] = useState("");
 
-  const games = [
-    { id: 1, title: "Hollow Knight", release_date: "2017" },
-    { id: 2, title: "Elden Ring", release_date: "2022" },
-    { id: 3, title: "Clair Obscur: Expedition 33", release_date: "2025" },
-  ];
+  // const games = [
+  //   { id: 1, title: "Hollow Knight", release_date: "2017" },
+  //   { id: 2, title: "Elden Ring", release_date: "2022" },
+  //   { id: 3, title: "Clair Obscur: Expedition 33", release_date: "2025" },
+  // ];
 
   const handleSearch = (e) => {
     e.preventDefault();
